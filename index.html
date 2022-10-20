@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SAAS Landing Page</title>
 
-    <!-- Font Awesome library -->
+    <!-- Linking Font Awesome library -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -16,10 +15,14 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-query.css" />
+    <title>SAAS Landing Page</title>
   </head>
   <body>
-    <div class="main-container">
-      <div class="top">
+    <!-- Top section -->
+    <div class="top-section">
+      <div class="container">
+        <!-- Navbar -->
         <nav class="navbar">
           <img
             class="logo"
@@ -28,18 +31,19 @@
           />
 
           <ul class="nav-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Blog</a></li>
           </ul>
 
           <button class="free-trial-btn">Free Trial</button>
         </nav>
 
-        <div class="intro">
-          <div class="left">
+        <!-- Hero section -->
+        <div class="hero">
+          <div class="content">
             <h1>Codext is one of the best system in SAAS</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
@@ -48,7 +52,7 @@
             </p>
           </div>
 
-          <div class="right">
+          <div class="image">
             <img
               src="./assets/svg-images/saas-illustration-1.svg"
               alt="illustration-1"
@@ -56,40 +60,41 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="middle">
-        <div class="left">
+    <!-- Mid section -->
+    <div class="mid-section">
+      <div class="container">
+        <div class="image">
           <img
             src="./assets/svg-images/saas-illustration-2.svg"
             alt="illustration-2"
           />
         </div>
 
-        <div class="right">
+        <div class="content">
           <h2>It's helpful for operating system</h2>
 
-          <div class="attributes">
-            <div class="attribute">
-              <i class="fa-solid fa-share one"></i>
-              <h3>Ultra Fast & Secure</h3>
+          <!-- Features -->
+          <div class="features">
+            <div class="feature">
+              <h3><i class="fa-solid fa-share one"></i> Ultra Fast & Secure</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestiae praesentium eos possimus.
               </p>
             </div>
 
-            <div class="attribute">
-              <i class="fa-solid fa-share two"></i>
-              <h3>Allow Customization</h3>
+            <div class="feature">
+              <h3><i class="fa-solid fa-share two"></i> Allow Customization</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestiae praesentium eos possimus.
               </p>
             </div>
 
-            <div class="attribute">
-              <i class="fa-solid fa-share three"></i>
-              <h3>Smart Contract</h3>
+            <div class="feature">
+              <h3><i class="fa-solid fa-share three"></i> Smart Contract</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestiae praesentium eos possimus.
@@ -98,12 +103,16 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="bottom">
+    <!-- Bottom section -->
+    <div class="bottom-section">
+      <div class="container">
         <h2>We provide best features to our customers</h2>
 
-        <div class="features">
-          <div class="feature active">
+        <!-- Services -->
+        <div class="services">
+          <div class="service active">
             <div class="icon clean-code">
               <img src="./assets/svg-images/clean-code.svg" alt="clean-code" />
             </div>
@@ -114,7 +123,7 @@
             </div>
           </div>
 
-          <div class="feature">
+          <div class="service">
             <div class="icon analytics">
               <img
                 src="./assets/svg-images/data-analytics.svg"
@@ -128,7 +137,7 @@
             </div>
           </div>
 
-          <div class="feature">
+          <div class="service">
             <div class="icon secured">
               <img
                 src="./assets/svg-images/secured-profile.svg"
@@ -142,7 +151,7 @@
             </div>
           </div>
 
-          <div class="feature">
+          <div class="service">
             <div class="icon support">
               <img src="./assets/svg-images/support.svg" alt="support" />
             </div>
