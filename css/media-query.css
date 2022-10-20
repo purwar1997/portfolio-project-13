@@ -134,15 +134,15 @@
   }
 
   .nav-items li a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .nav-items li:first-child a::after {
-    width: 48px;
+    width: 45px;
   }
 
   .hero .content h1 {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .hero .content p {
