@@ -1,10 +1,3 @@
-@media (max-width: 1260px) {
-  .services {
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 50px;
-  }
-}
-
 @media (max-width: 1200px) {
   .hero .content h1 {
     font-size: 42px;
@@ -42,7 +35,7 @@
   }
 
   .hero .image {
-    width: 80%;
+    width: 75%;
   }
 
   .hero .content {
@@ -56,7 +49,7 @@
   }
 
   .mid-section .image {
-    width: 80%;
+    width: 75%;
   }
 
   .mid-section .content {
@@ -66,6 +59,12 @@
 
   .feature p {
     padding-left: 0px;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
   }
 }
 

@@ -16,7 +16,7 @@ This project is a landing page for a SAAS business. It is created using HTML and
 
 ## What I learnt by creating this project :-
 
-- How to use CSS `Flexbox` to position HTML elements
+- How to use CSS `Flexbox` to position elements
 - How to create `cards` and design them
 - How to use CSS `transition` property on a button
 - How to work with `SVG` images to make beautiful web pages
